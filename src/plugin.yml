@@ -1,0 +1,95 @@
+name: MyHolograms
+version: 1.0
+author: DrBrad
+main: unet.Holograms.Main
+description: Im the best their is plain and simple, I mean I wake up and piss excellance
+api-version: 1.16
+commands:
+  h:
+    description: Hologram commands.
+    usage: |
+      /h
+  h help:
+    description: List of hologram commands.
+    usage: |
+      /h help
+  h ?:
+    description: List of hologram commands.
+    usage: |
+      /h ?
+  h create:
+    description: Create a hologram.
+    usage: |
+      /h create HOLOGRAM_NAME THE TEXT YOU WISH TO SET
+  h text:
+    description: Set hologram text.
+    usage: |
+      /h text HOLOGRAM_NAME THE TEXT YOU WISH TO SET
+  h remove:
+    description: Remove a hologram.
+    usage: |
+      /h remove HOLOGRAM_NAME
+  h version:
+    description: Get the version of this plugin.
+    usage: |
+      /h version
+  fm:
+    description: FakeMob commands.
+    usage: |
+      /fm
+  fm help:
+    description: List of fakemob commands.
+    usage: |
+      /fm help
+  fm ?:
+    description: List of fakemob commands.
+    usage: |
+      /fm ?
+  fm create:
+    description: Create a FakeMob.
+    usage: |
+      /fm create KEY ENTITY_TYPE
+  fm remove:
+    description: Remove a FakeMob.
+    usage: |
+      /fm remove KEY
+  fm name:
+    description: Set the display name for the FakeMob.
+    usage: |
+      /fm name KEY DISPLAY_NAME
+  fm helmet:
+    description: Set the helmet for the FakeMob.
+    usage: |
+      /fm helmet KEY HELMET_MATERIAL
+  fm chestplate:
+    description: Set the chestplate for the FakeMob.
+    usage: |
+      /fm chestplate KEY CHESTPLATE_MATERIAL
+  fm leggings:
+    description: Set the leggings for the FakeMob.
+    usage: |
+      /fm leggings KEY LEGGINGS_MATERIAL
+  fm boots:
+    description: Set the boots for the FakeMob.
+    usage: |
+      /fm boots KEY BOOT_MATERIAL
+  fm mainhand:
+    description: Set the main-hand for the FakeMob.
+    usage: |
+      /fm helmet KEY MAIN_HAND_MATERIAL
+  fm offhand:
+    description: Set the off-hand for the FakeMob.
+    usage: |
+      /fm helmet KEY OFF_HAND_MATERIAL
+  fm cmd:
+    description: Set FakeMob to exicute command on interaction.
+    usage: |
+      /fm cmd KEY COMMAND
+  fm profession:
+    description: Set FakeMob Villager type.
+    usage: |
+      /fm profession KEY PROFESSION
+  fm version:
+    description: Get the version of this plugin.
+    usage: |
+      /fm version
