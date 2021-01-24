@@ -16,6 +16,14 @@ Donate
 -----------
 https://www.paypal.com/paypalme/TheAnarch
 
+![alt text](https://raw.githubusercontent.com/DrBrad/Minecraft-MyHolograms/main/1.png)
+![alt text](https://raw.githubusercontent.com/DrBrad/Minecraft-MyHolograms/main/2.png)
+![alt text](https://raw.githubusercontent.com/DrBrad/Minecraft-MyHolograms/main/3.png)
+
+
+
+
+
 Commands
 -----------
 - **/h help**      List of all commands
