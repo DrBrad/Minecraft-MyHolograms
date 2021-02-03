@@ -24,7 +24,6 @@ public class PingInjector implements Listener {
             ServerConnection conn = server.getServerConnection();
             networkManagers = Collections.synchronizedList((List<?>) getNetworkManagerList(conn));
         }catch(Exception e){
-            e.printStackTrace();
         }
     }
 
@@ -51,7 +50,6 @@ public class PingInjector implements Listener {
                 }
             }
         }catch(Exception e){
-            e.printStackTrace();
         }
         return null;
     }

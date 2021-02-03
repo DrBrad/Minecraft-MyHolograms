@@ -117,7 +117,6 @@ public class Main extends JavaPlugin implements Listener {
                     f.setAccessible(true);
 
                     FakeMob fakeMob = getFakeMobById((int)f.get(packet));
-                    Bukkit.getLogger().info("CLICKED   "+f.get(packet));
                     if(fakeMob != null){
                         fakeMob.interact(player);
                         return;
